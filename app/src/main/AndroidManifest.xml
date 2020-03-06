@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hyejin.a20181761ohj">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wjs"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ManbogiActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".FindActivity" />
+        <activity android:name=".WriteActivity" />
+        <activity android:name=".PlanActivity" />
+        <activity android:name=".PlaceActivity" />
+        <activity android:name=".PRActivity" />
+        <activity
+            android:name=".FRActivity"
+            android:label="@string/title_activity_fr"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PlanVActivity" />
+        <activity android:name=".LoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" ></activity>
+    </application>
+
+</manifest>

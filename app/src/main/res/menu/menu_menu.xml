@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="홈으로"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/write"
+        android:title="계획 작성"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/place"
+        android:title="여행 후기"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/food"
+        android:title="맛집 후기"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/manbogi"
+        android:icon="@drawable/logox"
+        android:title="Item"
+        app:showAsAction="always" />
+
+</menu>

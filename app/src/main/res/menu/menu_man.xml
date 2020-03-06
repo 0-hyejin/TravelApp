@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a06d_widget1.MainActivity">
+    <item
+        android:id="@+id/action_up"
+        android:orderInCategory="100"
+        android:title="추천"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_down"
+        android:orderInCategory="100"
+        android:title="비추천"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_send"
+        android:title="의견 보내기"
+        android:orderInCategory="150"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/manbogi"
+        android:icon="@drawable/logox"
+        android:title="Item"
+        app:showAsAction="always" />
+
+</menu>
